@@ -8118,7 +8118,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [118]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># BEGIN SOLUTION</span>
@@ -8259,7 +8259,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [141]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -8395,7 +8395,7 @@ Median of intercept while examining y = -1.9362634679702322
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [215]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#IMPORT LIBRARIES</span>
@@ -8426,7 +8426,7 @@ Median of intercept while examining y = -1.9362634679702322
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [216]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#READ data.csv DATASET</span>
@@ -8479,7 +8479,7 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [217]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">org</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8494,7 +8494,7 @@ memory usage: 109.4+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[217]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8652,7 +8652,7 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [218]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#PERFORM PRE PROCESSING OF DATA IF REQUIRED ( OBSERVE THE DATASET AND ITS VALUES CAREFULLY)</span>
@@ -8668,7 +8668,7 @@ memory usage: 109.4+ KB
 <span class="c1"># apps_col = df['apps']</span>
 <span class="c1"># df = df.drop('apps', axis=1)</span>
 
-<span class="n">scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
 <span class="n">df_normalized</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 <span class="n">df_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_normalized</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
 <span class="n">df_normalized</span><span class="p">[</span><span class="s1">'private'</span><span class="p">]</span> <span class="o">=</span> <span class="n">private_col</span>
@@ -8684,7 +8684,7 @@ memory usage: 109.4+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[218]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8727,107 +8727,107 @@ memory usage: 109.4+ KB
 <tbody>
 <tr>
 <th>0</th>
-<td>0.032887</td>
-<td>0.044177</td>
-<td>0.107913</td>
-<td>0.231579</td>
-<td>0.472527</td>
-<td>0.087164</td>
-<td>0.024548</td>
-<td>0.263430</td>
-<td>0.239596</td>
-<td>0.157754</td>
-<td>0.297710</td>
-<td>0.652632</td>
-<td>0.710526</td>
-<td>0.418231</td>
-<td>0.187500</td>
-<td>0.072671</td>
-<td>0.462963</td>
+<td>-0.346882</td>
+<td>-0.321205</td>
+<td>-0.063509</td>
+<td>-0.258583</td>
+<td>-0.191827</td>
+<td>-0.168116</td>
+<td>-0.209207</td>
+<td>-0.746356</td>
+<td>-0.964905</td>
+<td>-0.602312</td>
+<td>1.270045</td>
+<td>-0.163028</td>
+<td>-0.115729</td>
+<td>1.013776</td>
+<td>-0.867574</td>
+<td>-0.501910</td>
+<td>-0.318252</td>
 <td>1</td>
 </tr>
 <tr>
 <th>1</th>
-<td>0.043842</td>
-<td>0.070531</td>
-<td>0.075035</td>
-<td>0.157895</td>
-<td>0.219780</td>
-<td>0.080752</td>
-<td>0.056148</td>
-<td>0.513430</td>
-<td>0.736129</td>
-<td>0.291444</td>
-<td>0.190840</td>
-<td>0.221053</td>
-<td>0.078947</td>
-<td>0.260054</td>
-<td>0.250000</td>
-<td>0.138387</td>
-<td>0.425926</td>
+<td>-0.210884</td>
+<td>-0.038703</td>
+<td>-0.288584</td>
+<td>-0.655656</td>
+<td>-1.353911</td>
+<td>-0.209788</td>
+<td>0.244307</td>
+<td>0.457496</td>
+<td>1.909208</td>
+<td>1.215880</td>
+<td>0.235515</td>
+<td>-2.675646</td>
+<td>-3.378176</td>
+<td>-0.477704</td>
+<td>-0.544572</td>
+<td>0.166110</td>
+<td>-0.551262</td>
 <td>1</td>
 </tr>
 <tr>
 <th>2</th>
-<td>0.028055</td>
-<td>0.039036</td>
-<td>0.047349</td>
-<td>0.221053</td>
-<td>0.450549</td>
-<td>0.028473</td>
-<td>0.004488</td>
-<td>0.460227</td>
-<td>0.310530</td>
-<td>0.135472</td>
-<td>0.139695</td>
-<td>0.473684</td>
-<td>0.552632</td>
-<td>0.278820</td>
-<td>0.468750</td>
-<td>0.104605</td>
-<td>0.407407</td>
+<td>-0.406866</td>
+<td>-0.376318</td>
+<td>-0.478121</td>
+<td>-0.315307</td>
+<td>-0.292878</td>
+<td>-0.549565</td>
+<td>-0.497090</td>
+<td>0.201305</td>
+<td>-0.554317</td>
+<td>-0.905344</td>
+<td>-0.259582</td>
+<td>-1.204845</td>
+<td>-0.931341</td>
+<td>-0.300749</td>
+<td>0.585935</td>
+<td>-0.177290</td>
+<td>-0.667767</td>
 <td>1</td>
 </tr>
 <tr>
 <th>3</th>
-<td>0.006998</td>
-<td>0.010549</td>
-<td>0.016045</td>
-<td>0.621053</td>
-<td>0.879121</td>
-<td>0.011776</td>
-<td>0.002839</td>
-<td>0.548554</td>
-<td>0.578499</td>
-<td>0.157754</td>
-<td>0.095420</td>
-<td>0.884211</td>
-<td>0.960526</td>
-<td>0.139410</td>
-<td>0.578125</td>
-<td>0.298415</td>
-<td>0.453704</td>
+<td>-0.668261</td>
+<td>-0.681682</td>
+<td>-0.692427</td>
+<td>1.840231</td>
+<td>1.677612</td>
+<td>-0.658079</td>
+<td>-0.520752</td>
+<td>0.626633</td>
+<td>0.996791</td>
+<td>-0.602312</td>
+<td>-0.688173</td>
+<td>1.185206</td>
+<td>1.175657</td>
+<td>-1.615274</td>
+<td>1.151188</td>
+<td>1.792851</td>
+<td>-0.376504</td>
 <td>1</td>
 </tr>
 <tr>
 <th>4</th>
-<td>0.002333</td>
-<td>0.002818</td>
-<td>0.003146</td>
-<td>0.157895</td>
-<td>0.384615</td>
-<td>0.003492</td>
-<td>0.039753</td>
-<td>0.269628</td>
-<td>0.368852</td>
-<td>0.313725</td>
-<td>0.190840</td>
-<td>0.715789</td>
-<td>0.631579</td>
-<td>0.252011</td>
-<td>0.031250</td>
-<td>0.145833</td>
-<td>0.046296</td>
+<td>-0.726176</td>
+<td>-0.764555</td>
+<td>-0.780735</td>
+<td>-0.655656</td>
+<td>-0.596031</td>
+<td>-0.711924</td>
+<td>0.009005</td>
+<td>-0.716508</td>
+<td>-0.216723</td>
+<td>1.518912</td>
+<td>0.235515</td>
+<td>0.204672</td>
+<td>-0.523535</td>
+<td>-0.553542</td>
+<td>-1.675079</td>
+<td>0.241803</td>
+<td>-2.939613</td>
 <td>1</td>
 </tr>
 <tr>
@@ -8853,107 +8853,107 @@ memory usage: 109.4+ KB
 </tr>
 <tr>
 <th>772</th>
-<td>0.044071</td>
-<td>0.054955</td>
-<td>0.079912</td>
-<td>0.031579</td>
-<td>0.186813</td>
-<td>0.093639</td>
-<td>0.092878</td>
-<td>0.230217</td>
-<td>0.334174</td>
-<td>0.180036</td>
-<td>0.145038</td>
-<td>0.547368</td>
-<td>0.473684</td>
-<td>0.495979</td>
-<td>0.218750</td>
-<td>0.024186</td>
-<td>0.277778</td>
+<td>-0.208040</td>
+<td>-0.205673</td>
+<td>-0.255200</td>
+<td>-1.336352</td>
+<td>-1.505488</td>
+<td>-0.126030</td>
+<td>0.771435</td>
+<td>-0.906289</td>
+<td>-0.417455</td>
+<td>-0.299280</td>
+<td>-0.207855</td>
+<td>-0.775861</td>
+<td>-1.339146</td>
+<td>1.746877</td>
+<td>-0.706073</td>
+<td>-0.994781</td>
+<td>-1.483301</td>
 <td>0</td>
 </tr>
 <tr>
 <th>773</th>
-<td>0.039114</td>
-<td>0.065999</td>
-<td>0.103823</td>
-<td>0.242105</td>
-<td>0.417582</td>
-<td>0.086021</td>
-<td>0.050653</td>
-<td>0.474174</td>
-<td>0.501261</td>
-<td>0.224599</td>
-<td>0.152672</td>
-<td>0.684211</td>
-<td>0.671053</td>
-<td>0.289544</td>
-<td>0.484375</td>
-<td>0.113164</td>
-<td>0.675926</td>
+<td>-0.269575</td>
+<td>-0.087284</td>
+<td>-0.091509</td>
+<td>-0.201858</td>
+<td>-0.444454</td>
+<td>-0.175543</td>
+<td>0.165435</td>
+<td>0.268462</td>
+<td>0.549707</td>
+<td>0.306784</td>
+<td>-0.133960</td>
+<td>0.020822</td>
+<td>-0.319632</td>
+<td>-0.199632</td>
+<td>0.666685</td>
+<td>-0.090290</td>
+<td>1.021555</td>
 <td>1</td>
 </tr>
 <tr>
 <th>774</th>
-<td>0.041989</td>
-<td>0.070188</td>
-<td>0.103823</td>
-<td>0.347368</td>
-<td>0.571429</td>
-<td>0.084243</td>
-<td>0.007557</td>
-<td>0.235537</td>
-<td>0.381463</td>
-<td>0.232175</td>
-<td>0.081069</td>
-<td>0.621053</td>
-<td>0.671053</td>
-<td>0.319035</td>
-<td>0.312500</td>
-<td>0.096839</td>
-<td>0.361111</td>
+<td>-0.233895</td>
+<td>-0.042377</td>
+<td>-0.091509</td>
+<td>0.365389</td>
+<td>0.262901</td>
+<td>-0.187095</td>
+<td>-0.453053</td>
+<td>-0.880670</td>
+<td>-0.143730</td>
+<td>0.409815</td>
+<td>-0.827095</td>
+<td>-0.346878</td>
+<td>-0.319632</td>
+<td>0.078441</td>
+<td>-0.221570</td>
+<td>-0.256241</td>
+<td>-0.959029</td>
 <td>1</td>
 </tr>
 <tr>
 <th>775</th>
-<td>0.221273</td>
-<td>0.090677</td>
-<td>0.201667</td>
-<td>0.989474</td>
-<td>0.989011</td>
-<td>0.161186</td>
-<td>0.003755</td>
-<td>0.903926</td>
-<td>0.745586</td>
-<td>0.237968</td>
-<td>0.284733</td>
-<td>0.926316</td>
-<td>0.947368</td>
-<td>0.088472</td>
-<td>0.765625</td>
-<td>0.701265</td>
-<td>0.824074</td>
+<td>1.991711</td>
+<td>0.177256</td>
+<td>0.578333</td>
+<td>3.825595</td>
+<td>2.182866</td>
+<td>0.312977</td>
+<td>-0.507606</td>
+<td>2.337894</td>
+<td>1.963953</td>
+<td>0.488603</td>
+<td>1.144424</td>
+<td>1.430339</td>
+<td>1.107689</td>
+<td>-2.095582</td>
+<td>2.120194</td>
+<td>5.887971</td>
+<td>1.953595</td>
 <td>1</td>
 </tr>
 <tr>
 <th>776</th>
-<td>0.060567</td>
-<td>0.067903</td>
-<td>0.103193</td>
-<td>0.284211</td>
-<td>0.593407</td>
-<td>0.090433</td>
-<td>0.079002</td>
-<td>0.136880</td>
-<td>0.280580</td>
-<td>0.180036</td>
-<td>0.152672</td>
-<td>0.705263</td>
-<td>0.671053</td>
-<td>0.418231</td>
-<td>0.437500</td>
-<td>0.024940</td>
-<td>0.824074</td>
+<td>-0.003268</td>
+<td>-0.066872</td>
+<td>-0.095816</td>
+<td>0.025041</td>
+<td>0.363952</td>
+<td>-0.146867</td>
+<td>0.572283</td>
+<td>-1.355744</td>
+<td>-0.727676</td>
+<td>-0.299280</td>
+<td>-0.133960</td>
+<td>0.143389</td>
+<td>-0.319632</td>
+<td>1.013776</td>
+<td>0.424434</td>
+<td>-0.987116</td>
+<td>1.953595</td>
 <td>1</td>
 </tr>
 </tbody>
@@ -8980,14 +8980,14 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [219]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># BEGIN SOLUTION</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">df_normalized</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'apps'</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df_normalized</span><span class="p">[</span><span class="s1">'apps'</span><span class="p">]</span>
 
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
 
 <span class="c1"># END SOLUTION</span>
 </pre></div>
@@ -9011,7 +9011,7 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [220]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#BEGIN SOLUTION</span>
@@ -9036,7 +9036,7 @@ memory usage: 109.4+ KB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Test error obtained by fitting linear regression model is 0.00038624154928096246
+<pre>Test error obtained by fitting linear regression model is 0.07941417683724569
 </pre>
 </div>
 </div>
@@ -9058,7 +9058,7 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [231]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#BEGIN SOLUTION</span>
@@ -9072,7 +9072,8 @@ memory usage: 109.4+ KB
 
 <span class="n">ridge_test_error</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">y_ridge_pred</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Test error obtained by fitting Ridge Regression model is </span><span class="si">{</span><span class="n">ridge_test_error</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Test error obtained by fitting Ridge Regression model is </span><span class="si">{</span><span class="n">ridge_test_error</span><span class="si">}</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Lambda obtained by cross-validation is </span><span class="si">{</span><span class="n">ridge_cv</span><span class="o">.</span><span class="n">alpha_</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 <span class="c1"># END SOLUTION</span>
 </pre></div>
 </div>
@@ -9086,7 +9087,9 @@ memory usage: 109.4+ KB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Test error obtained by fitting Ridge Regression model is 0.0003861996846681731
+<pre>Test error obtained by fitting Ridge Regression model is 0.07941408967840116
+
+Lambda obtained by cross-validation is 0.0001
 </pre>
 </div>
 </div>
@@ -9108,7 +9111,7 @@ memory usage: 109.4+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [236]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#BEGIN SOLUTION</span>
@@ -9122,8 +9125,9 @@ memory usage: 109.4+ KB
 
 <span class="n">lasso_test_error</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">y_lasso_pred</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Test error obtained by fitting Lasso Regression model is </span><span class="si">{</span><span class="n">lasso_test_error</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Number of non-zero coefficient estimates'</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">lasso_cv</span><span class="o">.</span><span class="n">coef_</span><span class="o">!=</span><span class="mi">0</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Test error obtained by fitting Lasso Regression model is </span><span class="si">{</span><span class="n">lasso_test_error</span><span class="si">}</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Number of non-zero coefficient estimates ='</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">lasso_cv</span><span class="o">.</span><span class="n">coef_</span><span class="o">!=</span><span class="mi">0</span><span class="p">),</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Lambda obtained by cross-validation is </span><span class="si">{</span><span class="n">lasso_cv</span><span class="o">.</span><span class="n">alpha_</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 <span class="c1"># END SOLUTION</span>
 </pre></div>
 </div>
@@ -9137,8 +9141,11 @@ memory usage: 109.4+ KB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Test error obtained by fitting Lasso Regression model is 0.0003669473677141466
-Number of non-zero coefficient estimates 12
+<pre>Test error obtained by fitting Lasso Regression model is 0.07930404027696938
+
+Number of non-zero coefficient estimates = 16 
+
+Lambda obtained by cross-validation is 0.0001
 </pre>
 </div>
 </div>
