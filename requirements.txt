@@ -20,6 +20,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 click-plugins==1.1.1
 cligj==0.7.2
+cmake==3.29.2
 comm==0.2.2
 contourpy==1.2.0
 cycler==0.12.1
@@ -65,6 +66,7 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.4
 kiwisolver==1.4.5
 lifelines==0.28.0
+lightgbm==4.3.0
 lightning-utilities==0.11.2
 lxml==5.2.1
 MarkupSafe==2.1.5
