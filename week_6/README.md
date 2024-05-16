@@ -23,7 +23,30 @@ The project folder consists of a dataset file, python notebook, python notebook 
 In addition to the above file my project directory has a pics folder and a catboost_info folder. The folder pics contains pictures regarding the project and the folder catboost_info contains information regrading the catboost model training and tuning.
 
 ## Structure of My Project folder
-
+## Structure of My Project folder
+.
+|── IML_final_project_week6_Abhay.html
+|── IML_final_project_week6_Abhay.ipynb
+|── INFO_521_IML_Final_Project_Report_ABHAY.docx
+|── INFO_521_IML_Final_Project_Report_ABHAY.pdf
+|── README.md
+|── README.txt
+|── catboost_info
+|   |── catboost_training.json
+|   |── learn
+|   |── learn_error.tsv
+|   |── time_left.tsv
+|   |── tmp
+|── credit.csv
+|── pics
+    |── Screenshot 2024-05-05 at 6.35.25PM.png
+    |── cate_pics
+    |── col_trans.png
+    |── corr_mat.png
+    |── cv_scores.png
+    |── models
+    |── pairplot.png
+    |── recall_base.png
 
 
 
